@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" >
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+<body>
+  <div class="hero">
+    <header>
+      <h1 class="hero__logo">
+        <img src="./images/logo.svg" alt="Loopstudios Logo" />
+      </h1>
+      <button class="hero__menu-open">
+        <img src="./images/icon-hamburger.svg" alt="menu button" />
+      </button>
+      <nav class="hero__nav">
+        <ul>
+          <li><a href="#description">About</a></li>
+          <li><a href="/">Careers</a></li>
+          <li><a href="/">Events</a></li>
+          <li><a href="#creations">Products</a></li>
+          <li><a href="/">Support</a></li>
+        </ul>
+      </nav>
+      <nav class="hero__nav hero__nav--mobile">
+        <div class="hero__nav-header">
+          <img class="hero__logo" src="./images/logo.svg" alt="Loopstudios Logo" />
+          <button class="hero__menu-close">
+            <img src="./images/icon-close.svg" alt="close menu" />
+          </button>
+        </div>
+        <ul class="hero__nav-list">
+          <li><a href="#description">About</a></li>
+          <li><a href="/">Careers</a></li>
+          <li><a href="/">Events</a></li>
+          <li><a href="#creations">Products</a></li>
+          <li><a href="/">Support</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2 class="hero__title"> IMMERSIVE  EXPERIENCES <br> THAT DELIVER</h2>
+  </div>
+  <main>
+    <section id="description" class="leader">
+      <figure class="leader__figure">
+        <picture>
+          <source srcset="./images/desktop/image-interactive.jpg" media="(min-width: 768px)">
+          <img class="leader__image" src="./images/mobile/image-interactive.jpg" alt="interactive vr" />
+        </picture>
+        <figcaption class="leader__caption">
+          <h2 class="leader__title">THE LEADER IN INTERACTIVE VR</h2>
+          <p class="leader__subtitle"> Founded in 2011, Loopstudios has been producing world-class virtual reality 
+            projects for some of the best companies around the globe. Our award-winning 
+            creations have transformed businesses through digital experiences that bind 
+            to their brand.</p>
+        </figcaption>
+      </figure>
+    </section>
+    <section id="creations" class="creations">
+      <h2 class="creations__title"> Our creations</h2>
+      <div class="creations__content">
+        <figure class="creation">
+          <picture>
+            <source srcset="./images/desktop/image-deep-earth.jpg" media="(min-width: 768px)">
+            <img class="creation__image" src="./images/mobile/image-deep-earth.jpg" slt="deep earth" />
+          </picture>
+          <figcaption>
+            <h3 class="creation__title"> Deep <br> earth</h3>
+          </figcaption>
+        </figure>
+        <figure class="creation">
+          <picture>
+            <source srcset="./images/desktop/image-night-arcade.jpg" media="(min-width: 768px)">
+            <img class="creation__image" src="./images/mobile/image-night-arcade.jpg" slt="deep earth" />
+          </picture>
+          <figcaption>
+            <h3 class="creation__title"> Night <br> arcade</h3>
+          </figcaption>
+        </figure>
+        <figure class="creation">
+          <picture>
+            <source srcset="./images/desktop/image-soccer-team.jpg" media="(min-width: 768px)">
+            <img class="creation__image" src="./images/mobile/image-soccer-team.jpg" slt="deep earth" />
+          </picture>
+          <figcaption>
+            <h3 class="creation__title"> Soccer <br> team VR</h3>
+          </figcaption>
+        </figure>
+        <figure class="creation">
+          <picture>
+            <source srcset="./images/desktop/image-grid.jpg" media="(min-width: 768px)">
+            <img class="creation__image" src="./images/mobile/image-grid.jpg" slt="deep earth" />
+          </picture>
+          <figcaption>
+            <h3 class="creation__title"> The <br> grid</h3>
+          </figcaption>
+        </figure>
+        <figure class="creation">
+          <picture>
+            <source srcset="./images/desktop/image-from-above.jpg" media="(min-width: 768px)">
+            <img class="creation__image" src="./images/mobile/image-from-above.jpg" slt="deep earth" />
+          </picture>
+          <figcaption>
+            <h3 class="creation__title"> From up <br> above VR</h3>
+          </figcaption>
+        </figure>
+        <figure class="creation">
+          <picture>
+            <source srcset="./images/desktop/image-pocket-borealis.jpg" media="(min-width: 768px)">
+            <img class="creation__image" src="./images/mobile/image-pocket-borealis.jpg" slt="deep earth" />
+          </picture>
+          <figcaption>
+            <h3 class="creation__title"> Pocket <br> borealis</h3>
+          </figcaption>
+        </figure>
+        <figure class="creation">
+          <picture>
+            <source srcset="./images/desktop/image-curiosity.jpg" media="(min-width: 768px)">
+            <img class="creation__image" src="./images/mobile/image-curiosity.jpg" slt="deep earth" />
+          </picture>
+          <figcaption>
+            <h3 class="creation__title"> The <br> curiosity</h3>
+          </figcaption>
+        </figure>
+        <figure class="creation">
+          <picture>
+            <source srcset="./images/desktop/image-fisheye.jpg" media="(min-width: 768px)">
+            <img class="creation__image" src="./images/mobile/image-fisheye.jpg" slt="deep earth" />
+          </picture>
+          <figcaption>
+            <h3 class="creation__title"> Make it <br> fisheye</h3>
+          </figcaption>
+        </figure>
+      </div>
+      <button class="creations__action">
+        See all
+      </button>
+    </section>
+  </main>
+  <footer class="attribution footer">
+    <img class="footer__logo" src="./images/logo.svg" alt="Loopstudios logo" />
+    <nav class="footer__nav">
+      <ul>
+        <li><a href="#description">About</a></li>
+        <li><a href="/">Careers</a></li>
+        <li><a href="/">Events</a></li>
+        <li><a href="#creations">Products</a></li>
+        <li><a href="/">Support</a></li>
+      </ul>
+    </nav>
+    <ul class="footer__icons">
+      <li>
+       <a href="/" rel="noopener noreferrer" target="_blank"><img src="./images/icon-facebook.svg" alt="facebook" /></a>
+      </li>
+      <li>
+        <a href="/" rel="noopener noreferrer" target="_blank"><img src="./images/icon-twitter.svg" alt="twitter" /></a>
+       </li>
+       <li>
+        <a href="/" rel="noopener noreferrer" target="_blank"><img src="./images/icon-pinterest.svg" alt="pinterest" /></a>
+       </li>
+       <li>
+        <a href="/" rel="noopener noreferrer" target="_blank"><img src="./images/icon-instagram.svg" alt="instagram" /></a>
+       </li>
+    </ul>
+    <p class="footer__copyright"> © 2021 Loopstudios. All rights reserved.</p>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Dilyara</a>.
+  </footer>
+<script>
+  const menuButtonOpen = document.querySelector('.hero__menu-open')
+  const menuButtonClose= document.querySelector('.hero__menu-close')
+  const mobileNav = document.querySelector('.hero__nav--mobile')
+  const mobileNavList = document.querySelector('.hero__nav-list')
+  menuButtonOpen.addEventListener('click', () => {
+   mobileNav.classList.add('open')
+   document.body.style.overflow = 'hidden';
+  })
+  menuButtonClose.addEventListener('click', () => {
+    mobileNav.classList.remove('open')
+    document.body.style.overflow = '';
+  })
+
+  mobileNavList.addEventListener('click', () => {
+    mobileNav.classList.remove('open')
+    document.body.style.overflow = '';
+  })
+  
+</script>
+</body>
+</html>
