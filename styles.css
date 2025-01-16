@@ -23,6 +23,7 @@ a::after {
 }
 
 body {
+    width: 100%;
     font-family: "Alata", serif;
     font-size: 15px;
 }
@@ -37,11 +38,14 @@ main {
     background-size: cover;
     height: 70vh;
     padding: 0 1.5rem;
-    display: grid;
-    grid-template-rows: auto 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 header {
+    width: 100%;
     padding-top: 2rem;
     display: flex;
     justify-content: space-between;
@@ -141,6 +145,8 @@ header {
 }
 
 .hero__title {
+    margin-top: auto;
+    margin-bottom: auto;
     align-self: center;
     font-family: "Josefin Sans", serif;
     color: white;
@@ -309,17 +315,13 @@ header {
     
 
     .hero {
+        padding: 0 8rem;
         background-image: url(./images/desktop/image-hero.jpg);
         grid-template-columns: repeat(auto-fill, 150px);
     }
 
-    header {
-        grid-column: 1 / -1;
-    }
     .hero__title {
-        font-size: 3rem;
-        grid-column: 1 / span 2;
-        grid-row: 2;
+        align-self: flex-start;
         padding: 2rem;
     }
 
